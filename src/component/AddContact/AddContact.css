@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border: 1px solid #f7f8f8;
+}
+.formControl{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 5px;
+}
+.formControl input {
+    outline: none;
+    border:1px solid #dcdddd;
+    border-radius: 5px;
+    padding: 7px 5px;
+    margin-top: 5px;
+}
+.formBtn{
+   outline: #22c55e;
+    color: #fff;
+background-color: #22c55e;
+    border-radius: 20px 0px 20px 0;
+    padding: 7px 5px;
+    margin: 15px 0;
+    width: 200px;
+}
+.formControl input:focus{
+    border:2px solid #22c55e;  
+}

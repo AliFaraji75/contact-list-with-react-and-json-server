@@ -1,0 +1,22 @@
+.App {
+
+display: flex;
+
+flex-direction: column;
+align-items: center;
+  height: 100vh;
+  width:100vw;
+background-color: #ffffff;
+padding-top: 30px;
+}
+h2{
+ 
+  color: rgb(104, 101, 101);
+  border-bottom: 1px solid rgb(184, 180, 180);
+  width: 100vw;
+  text-align: center;
+  padding-bottom: 5px;
+}
+a{
+  text-decoration: none;
+}
